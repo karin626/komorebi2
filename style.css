@@ -1,0 +1,462 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	font-size:62.5%;
+}
+body{
+	color:#595757;
+	font-size:1.6rem;
+    font-family: source-han-serif-japanese, serif;
+	font-style: normal;
+	overflow-x: hidden;
+	letter-spacing: 0.03em;
+}
+
+/*Utility*/
+.cursive{
+	font-family: caflisch-script-pro, sans-serif;
+}
+.space{
+	letter-spacing: 0.03em;
+}
+/*Navigation*/
+.logo{
+	text-align: center;
+}
+.logo img{
+	width: 10%;
+	height: auto;
+}
+.nav{
+	list-style: none;
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+ul.nav{
+	padding: 0;
+	margin: 0;
+}
+.nav li{
+	text-align: center;
+	padding: 0;
+	display:inline-block;
+	width: 140px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #333;
+	font-weight: 300;
+	
+}
+
+/*/Navigation*/
+
+
+
+/*TOP*/
+
+.top{
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-family: source-han-serif-japanese, serif;
+	width: 80%;
+}
+.top_img{
+	width: 100%;
+	text-align: right;
+    margin-right: 10%;
+}
+.top_img img{
+	width: 50%;
+}
+.top_txt{
+	width: 100%;
+}
+.top_txt p:first-child{
+	font-size: 1.4rem;
+    color: #f29c9f;
+    margin: 0 0 20px;
+}
+.top_txt p:nth-child(2){
+	line-height: 2;
+    font-weight: 100;
+}
+.top_txt p:nth-child(3){
+	font-family: caflisch-script-pro, sans-serif;
+	font-weight: 100;
+	font-size: 3rem;
+    color: #f29c9f;
+    margin-top: 20px;
+    text-align: right;
+}
+.section_1_titile{
+    margin: 20px 0;
+    text-align: right;
+}
+.top_text img{
+}
+
+.title{
+	text-align: center;
+	font-size: 1.8rem;
+	margin-top: 80px;
+}
+
+/*/TOP*/
+
+/*WHAT IS HSP*/
+.section_2{
+	margin: 20vh 0;
+	height: 90vh;
+	padding: 20vh 0;
+	font-family: source-han-serif-japanese, serif;
+	background-image:url("../picture/bg_pink.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section_2_title{
+	text-align: center;
+}
+.section_2_title img{
+	margin: 5vh;
+	width: 20%;
+}
+.section_2 p:nth-child(2){
+	text-align: center;
+    margin-bottom: 50px;
+
+}
+.section_2 p:nth-child(3){
+	width: 75%;
+    margin: 0 auto;
+    line-height: 2rem;
+
+}
+
+.section_2_list{
+	align-items: center;
+	color: rgb(242, 156, 159);
+	margin: 5% auto;
+	list-style: none;
+	display: flex;
+	width: 70%;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 2;
+	
+}
+
+.section_2_list li{
+	background-image:url( "../picture/bg_white2.png");
+	background-repeat: no-repeat;
+	font-size: 0.8em;
+	background-size: 100% 100%;
+    padding: 60px 35px;
+}
+
+
+
+/*   /WHAT IS HSP   */
+
+
+/*   SELFCARE   */
+.section_3{
+    margin: 0 auto;
+	font-family: source-han-serif-japanese, serif;
+	
+}
+.section_3 .title{
+	line-height: 1.5;
+	text-align:left;
+	font-size: 3rem;
+    font-weight: 100;
+    color: #f29c9f;
+}
+.section_3 .subtitile{
+	font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.section_3_bg{
+	
+}
+.section_3_title{
+	margin: 20px 0;
+}
+.section_3_contents{
+    width: 60%;
+	margin: 0 auto;
+    line-height: 2;
+
+}
+.section_3_list {
+	width: 80%;
+	font-size:0.8em;
+    align-items: center;
+    margin: 100px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 2;
+}
+.section_3_list li{
+	background-repeat: no-repeat;
+	font-size: 0.8em;
+	background-size: 100% 100%;
+    padding: 70px 25px;
+}
+.section_3_list li:nth-child(1){
+	background-image:url( "../picture/bg_3_1.png");	
+	
+}
+.section_3_list li:nth-child(2){
+	background-image:url( "../picture/bg_3_2.png");
+	
+}
+.section_3_list li:nth-child(3){
+	background-image:url( "../picture/bg_3_3.png");
+}
+.section_3_list li p:nth-child(1){
+	letter-spacing: 0.3em;
+	font-size:1rem;	
+	color:#fff;
+	text-transform:uppercase;
+}
+.section_3_list li p:nth-child(2){
+	font-size: 1.3rem;
+	margin: 0 0 10px;
+}
+.ws_title{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+    margin: 5% 0 2%;
+	font-size: 2rem;
+	
+}
+hr{
+	width: 3%;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+.ws{
+	display: flex;
+	 flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+.ws a{
+	text-decoration: none;
+	width: 30%;
+	margin-bottom: 10%;
+}
+
+.ws img{
+	width: 200px;
+}
+.ws p{
+	font-size: 0.9rem;
+    color: #333;
+    display: block;
+    margin: 5% 10%;
+    text-align: left;
+	line-height: 2;
+}
+
+/*   /SELFCARE   */
+
+/*　　　WHAT IS CBD?   */
+.section_4{
+	background-color: #f0f9f7;
+	
+}
+.section_4 .contents {
+	font-size: 0.9rem;
+    padding: 50px;
+    width: 60%;
+    margin: 20px auto 0;
+    line-height: 2;
+    background-color: rgba(255,255,255,0.5);
+}
+.section_4 .title {
+	margin:0 0 10px;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #48cbc6;
+}
+.section_4 div:nth-child(1){
+	width: 80%;
+	margin: 0 auto;
+	padding: 20vh 0 0;
+}
+.section_4 div:nth-child(2){
+	padding-bottom: 50px;
+}
+.section_4 a{
+	color: #333;
+	width: 15%;
+    margin: 0 auto;
+	display: block;
+	text-align: center;
+    font-size: 1.2rem;
+    font-style: none;
+    padding: 15px 30px;
+    background: #fff;
+	text-decoration: none;
+}
+.cbt_pic{
+	text-align: right;
+	position: relative
+	
+	
+}
+.cbt_pic img{
+	width: 25%;
+	position: absolute;
+    right: 10%;
+    top: -150%;
+	
+}
+
+/*　　　/WHAT IS CBD?   */
+
+
+
+
+/*　　　NEWS   */
+.section_5{
+	margin:20vh 0;
+}
+.section_5 .title{
+	margin: 0 0 10px;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #48cbc6;
+}
+.section_5 .subtitle{
+	text-align: center;
+}
+.news{
+	width: 80%;
+	margin: 30px auto;
+}
+.news_contents{
+	margin: 40px 0;
+	
+}
+.news_date p:nth-child(1){
+	font-size: 1.2rem;
+    color: #f29c9f;
+	margin: 0 0 15px;
+	
+}
+.news_date p:nth-child(2){
+    color: #f29c9f;
+	font-size: 1rem;
+}
+.news_contents p:last-child{
+	font-size: 1rem;
+	line-height: 2rem;
+}
+.news_date{
+	justify-content: space-between;
+	display: flex;
+}
+/*　　　/NEWS   */
+
+
+/*==========================
+
+
+SHEET 2 
+
+
+=========================*/
+
+.main{
+	display: flex;
+	align-items: center;
+	
+}
+
+.icon{
+	text-align: right;
+	width: 45%;
+}
+.icon img{
+	width: 40%;
+	margin-right: 20%;
+}
+.profile_hr{
+	width: 3%;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+.main .text{
+	width: 40%;
+}
+.text p:nth-child(1){
+	font-size: 1.7rem;
+    margin: 10px 0;
+	color: #f29c9f;
+	letter-spacing: 0.3em;
+}
+.text p:nth-child(2){
+	margin: 0 0 20px;
+	line-height: 1.8;
+}
+.text p:nth-child(3){
+	font-size: 1.2rem;
+}
+.text li{
+	line-height: 1.8;
+}
+
+.shikaku{
+	text-align: center;
+    margin: 20vh 0;
+}
+.shikaku img{
+	padding: 0 25px;
+}
+.shikaku_titile{
+	margin-bottom: 3vh;
+}
+.shikaku_titile p{
+	display: inline;
+	font-size: 1.2rem;
+}
+.shikaku_titile img{
+	vertical-align: middle;
+}
+.shikaku li{
+	line-height: 2.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
